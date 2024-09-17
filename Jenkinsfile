@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('BuildTest') {
             steps {
-            git 'https://github.com/hammadahmed07/RepoNew.git'
+            git 'https://github.com/hammadahmed07/FlipkartJen01.git'
                 echo 'Building..'
             }
         }
